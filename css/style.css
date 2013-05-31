@@ -1,0 +1,273 @@
+/* geral */
+* {
+	margin: 0 auto;
+	padding: 0;
+}
+@font-face {
+  font-family: 'Monda';
+  font-style: normal;
+  src: local('Monda'), local('Monda'), url(../js/Monda.ttf) format('truetype');
+}
+
+header {
+	width:768px;
+	height: 160px;
+	background-image:url('../images/header.png');
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-color: #111111;
+	margin-bottom: 8px
+}
+.footerimg {
+	margin-left: 360px;
+	padding: 0;
+}
+.foterincio {
+	font-size: 17px;
+	font-family: 'Monda', sans-serif;
+	display: block;
+	width: :80px;
+	color: #fff;
+	text-align: center;
+	margin-top: 20px !important
+}
+.foter {
+	font-size: 13px;
+	font-family: 'Monda', sans-serif;
+	display: block;
+	width: :80px;
+	color: #fff;
+	text-align: center;
+}
+/*
+Categorias */
+.namecategoria {
+	font-size: 40px;
+	font-family: 'Monda', sans-serif;
+	display: block;
+	width: :600px;
+	margin: 18px 0px 0px 20px;
+	pading: 0;
+	color: #fff;
+	float: left;
+}
+nav>ul{
+	display:block;
+	list-style: none;
+
+}
+.categoria1 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 490px;
+}
+.categoria2 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 72px;
+}
+.categoria3 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 435px;
+}
+.categoria4 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 435px;
+}
+.categoria5 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 415px;
+}
+.categoria6 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 460px;
+}
+.categoria7 {
+	border-color: #fff;
+	border: 5px;
+	margin-top: 5px;
+	margin-right: 5px;
+	margin-left: 415px;
+}
+ul>a>li {
+	border-radius: 25px;
+	width: 750px;
+	display: block;
+	padding: 13px 0px 13px 0px;
+	border: 5px;
+	background: #222;
+	margin-bottom: 10px;
+}
+
+/**************************************************************************************/
+ul#ulgeral {
+
+}
+/***************************************************************************************/
+
+/*inicio das receitas */
+
+.recepted {
+	border-radius: 25px;
+	height: 40px;
+	width: 750px;
+	display: block;
+	padding: 1px 0px 1px 0px;
+	border: 5px;
+	background: #333;
+	margin-bottom: 10px;
+
+}
+.recepted2 {
+	border-radius: 25px;
+	height: 40px;
+	width: 470px;
+	display: block;
+	padding: 1px 0px 1px 285px;
+	border: 5px;
+	background: #111;
+	margin-bottom: 10px;
+
+}
+
+.nomecategoria {
+	font-size: 20px;
+	font-family: 'Monda', sans-serif;
+	display: block;
+	width: :600px;
+	margin: 5px 0px 0px 20px;
+	pading: 0;
+	color: #fff;
+}
+a:link{
+	text-decoration: none;
+}
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+/*********************************************************************************************************/
+nav#receitasdecadacat {
+
+}
+/*********************************************************************************************************/
+/* Receita mesmo */
+
+article>span#mododepreparotopo {
+	border-radius: 25px;
+	height: 40px;
+	width: 740px;
+	display: block;
+	padding: 1px 0px 1px 5px;
+	border: 5px;
+	background: #111;
+	margin-bottom: 10px;
+}
+article>a>span#mododepreparotopo {
+	border-radius: 25px;
+	height: 40px;
+	width: 740px;
+	display: block;
+	padding: 1px 0px 1px 5px;
+	border: 5px;
+	background: #111;
+	margin-bottom: 10px;
+}
+
+.preparogeral {
+	font-size: 20px;
+	font-family: 'Monda', sans-serif;
+	display: block;
+	width: :600px;
+	pading: 0;
+	color: #fff;
+	text-align: center;
+}
+.imagemdareceita {
+	border-radius: 50px;
+	margin-left: 283px;
+}
+.embaixodaimagemreceita {
+	font-family: 'Monda',  sans-serif;
+	font-size: 28px;
+	display: block;
+	margin-bottom: 1px;
+	clear: both;
+	border-radius: 10px;
+	text-align: center;
+	text-shadow: 1px 1px 2px #333;
+	color: #111;
+}
+.ingredientesnames {
+	margin-right: 14px;
+	display: block;
+	background-color: #8C1717;
+	margin-left: 10px;
+	text-shadow: 2px 2px 2px #222;
+	border-radius: 10px;
+	font-family: 'Monda', sans-serif;
+	font-size: 24px;
+	padding: 10px 13px 10px 13px;
+	color: #fff;
+	text-align: center;
+	margin-bottom: 15px;
+	opacity: 0.9;
+}
+.mododepreparofinalmesmo {
+	margin-right: 14px;
+	display: block;
+	background-color: #8E2323;
+	margin-left: 10px;
+	text-shadow: 2px 2px 2px #222;
+	border-radius: 10px;
+	font-family: 'Monda', sans-serif;
+	font-size: 24px;
+	padding: 10px 13px 10px 13px;
+	color: #fff;
+	text-align: left;
+	margin-bottom: 15px;
+
+}
+section > section#folhadereceita: {
+	width: 768px;
+	min-height: 1010px;
+	background-color: #fff;
+	display: none;
+}
+/*******************************************************************************/
+section#folhadereceita {
+
+	}
+/********************************************************************************/
+/*Final e div geral */
+
+section {
+	width: 768px;
+	min-height: 1010px;
+	background-color: #fff;
+}
+footer {
+	width: 768px;
+	height: 110px;
+	padding-top: 5px;
+	background-color: #111;
+	opacity: 0.9;
+}

@@ -1,0 +1,20 @@
+* {
+margin: 0 auto;
+padding: 0;
+}
+header {
+width:768px;
+height: 172px;
+background-image:url('../images/header.png');
+background-color: #111111;
+}
+section {
+width: 768px;
+height: 1100px;
+background-color: #fff;
+}
+footer {
+width: 768px;
+height: 70px;
+background-color: #111;
+}

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<widget xmlns=" http://www.w3.org/ns/widgets"
+        xmlns:rim="http://www.blackberry.com/ns/widgets"
+        version="1.0.0.0" id="receitasdavovo">
+  <rim:category name="games"/>
+
+    <name>Receitas da vovó</name>
+    <description>As receitas que você sempre pensou em fazer agora está disponível para você utilizar.</description>
+
+    <author href="http://www.caravanaweb.com.br/">Adalton Roosevelt</author>
+
+
+    <icon src="images/icon.png"/>
+    
+    <feature id="blackberry.app.orientation">
+        <param name="mode" value="portrait" />
+    </feature>
+    <feature id="blackberry.ui.dialog" />
+    
+    <content src="index.html" />
+    <access uri="*" subdomains="true"/>
+</widget>
